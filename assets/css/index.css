@@ -1,0 +1,108 @@
+.content {
+  background-color: #313030;
+}
+h3{
+  font-size: 1.7em;
+  padding-left: 20px;
+  color: white;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+}
+
+p {
+  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  text-align: justify;
+  margin-top: 0px;
+  font-size: 1.2em;
+  padding: 20px;
+  color: white;
+}
+
+.profile_image {
+   border-radius: 50%;
+   width: 200px;
+   height: 200px;
+   border: 6px solid #34375E;
+}
+
+.violet {
+  background: #221A28;
+  padding-top: 30px;
+}
+
+.violet > h3 {
+  padding-top: 20px;
+}
+
+.tutors {
+  padding: 20px 10px 20px 10px;
+  display: flex;
+}
+
+.tutor > p {
+  font-size: 2em;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.tutor {
+  width: 50%;
+  text-align: center;
+}
+
+.upcomming-events {
+  background-color: #1A1A1A;
+  height: 500px;
+  text-align: center;
+}
+
+.separator {
+  height: 1px;
+  background-color: #34375e;
+}
+
+.b_register {
+  font-size: 2em;
+  color: white;
+  background-color: #F33052;
+  padding: 20px;
+  vertical-align: middle;
+  height: 50px;
+  text-decoration: none;
+}
+
+
+.icon {
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-size: contain;
+    transition: all .1s ease-in-out;
+  }
+
+  .link {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .icon:hover {
+    transform: scale(1.1);
+  }
+
+  .slack {
+    background-image: url("/assets/images/slack-logo.png")
+  }
+
+  .github {
+    background-image: url("/assets/images/github-logo.png")
+  }
+
+  .mail {
+    background-image: url("/assets/images/mail-logo.png")
+  }

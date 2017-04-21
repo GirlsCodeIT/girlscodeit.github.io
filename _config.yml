@@ -1,1 +1,17 @@
-theme: jekyll-theme-cayman
+title: GirlsCode IT
+show_downloads: true
+google_analytics:
+url: "https://girlscodeit.github.io/"
+# Build settings
+markdown: kramdown
+email: girlscodeit@protonmail.com
+
+emoji:
+  src: "/assets/images/emoji"
+
+paginate: 10
+excerpt_separator: <!--more-->
+
+gems:
+  - jemoji
+  - jekyll-paginate
