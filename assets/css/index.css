@@ -36,6 +36,8 @@ p {
 .tutors {
   padding: 20px 10px 20px 10px;
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .tutor > p {
@@ -105,4 +107,19 @@ p {
 
   .mail {
     background-image: url("/assets/images/mail-logo.png")
+  }
+
+
+  @media screen and (max-width: 800px) {
+      .tutor {
+          width: 100vw;
+      }
+
+      .b_register {
+        font-size: 1em;
+      }
+
+      .tutor > p {
+        font-size: 1.5em;
+      }
   }
