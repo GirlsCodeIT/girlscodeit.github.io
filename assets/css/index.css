@@ -22,6 +22,8 @@ p {
    width: 200px;
    height: 200px;
    border: 6px solid #34375E;
+   overflow: hidden;
+   display: inline-block;
 }
 
 .violet {
