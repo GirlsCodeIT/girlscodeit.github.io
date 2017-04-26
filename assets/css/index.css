@@ -76,6 +76,10 @@ p {
   text-decoration: none;
 }
 
+.disabled {
+  background-color: #ccc !important;
+}
+
 
 .icon {
     width: 60px;
