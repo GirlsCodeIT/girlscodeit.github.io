@@ -19,8 +19,8 @@ p {
 
 .profile_image {
    border-radius: 50%;
-   width: 200px;
-   height: 200px;
+   width: 150px;
+   height: 150px;
    border: 6px solid #34375E;
    overflow: hidden;
    display: inline-block;
@@ -57,13 +57,11 @@ p {
 
 .upcomming-events {
   background-color: #1A1A1A;
-  height: 500px;
   text-align: center;
 }
 
 .separator {
-  height: 1px;
-  background-color: #34375e;
+  border-color: #34375e;
 }
 
 .b_register {
@@ -113,6 +111,10 @@ p {
 
   .mail {
     background-image: url("/assets/images/mail-logo.png")
+  }
+
+  .telegram {
+    background-image: url("/assets/images/telegram-logo.png")
   }
 
 
