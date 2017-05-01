@@ -1,3 +1,7 @@
+.logo {
+  max-width: 30%;
+}
+
 .events_link {
   color: white;
   padding-right: 50px;
@@ -7,4 +11,16 @@
 
 .menu {
   text-align: right;
+  padding-top: 20px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .logo {
+    max-width: 50%;
+  }
+
+  .events_link {
+    padding-right: 10px;
+  }
 }
