@@ -1,20 +1,17 @@
 ---
 layout: default
 ---
+<link rel="stylesheet" href="{{ "/assets/css/material.css" | prepend: site.baseurl }}">
 
-<div class="content inner">
+<div class="content inner flex">
 
   {% for post in site.posts %}
-    <div class="flex news-row">
-      <img class="post-image" src={{ post.image }} />
-      <div class="div-post">
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <p> {{ post.excerpt }} </p>
-        <a href="{{ post.url | prepend: site.baseurl }}" class="button">Read more</a>
-      </div>
-    </div>
-  {% endfor %}
 
-  <p>IN PROGRESS</p>
+  <div class="material flex-row flex-wrap">
+    <div class="elem">
+      <a class="link" href="{{ post.url | prepend: site.baseurl }}">Introducaione a Pagine Web Statiche</a>
+    </div>
+  </div> 
+  {% endfor %}
 
 </div>

@@ -1,17 +1,28 @@
+.pink {
+  background-color: #f33052;
+}
+
 .logo {
   max-width: 30%;
 }
+
+.hide {
+  display: none;
+}
+ 
 
 .events_link {
   color: white;
   padding-right: 50px;
   font-size: 1.5em;
   text-decoration: underline;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
 }
 
 .menu {
   text-align: right;
   padding-top: 20px;
+  background-color: #f33052;
 }
 
 
