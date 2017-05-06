@@ -1,8 +1,8 @@
 ---
-layout: "default"
-title: "Introduction to HTML"
-image: "assets/images/material/intro_html/my_first_page.png"
-date: "2017-05-05 23:25"
+layout: default
+title: Introduction to HTML
+image: assets/images/material/intro_html/my_first_page.png
+date: '2017-05-06 13:13'
 ---
 
 <!--more-->
