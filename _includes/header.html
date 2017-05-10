@@ -1,7 +1,7 @@
-<header id="header">
+<header class="pink">
   <link rel="stylesheet" href="{{ "/assets/css/header.css" | prepend: site.baseurl }}">
   <div>
-    <img class="logo" src="/assets/images/logo.svg" />
+    <img class="logo {% if page.path != 'index.html' %} hide {% endif %}" src="/assets/images/logo.svg" />
     <div>
       <h1 style="display: inline;">GirlsCode IT</h1>
     </div>
