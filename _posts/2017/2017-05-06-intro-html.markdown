@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introduction to HTML
+title: Introduzione a Pagine Web Statiche
 image: assets/images/material/intro_html/my_first_page.png
 date: '2017-05-06 13:13'
 ---
