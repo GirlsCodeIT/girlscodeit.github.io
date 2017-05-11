@@ -3,11 +3,11 @@ layout: default
 ---
 <link rel="stylesheet" href="{{ "/assets/css/material.css" | prepend: site.baseurl }}">
 
-<div class="content inner row">
+<div class="content inner flex">
 
   {% for post in site.posts %}
 
-  <div class="material col s6">
+  <div class="material content">
     <div class="elem  z-depth-2">
       <a class="link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </div>
