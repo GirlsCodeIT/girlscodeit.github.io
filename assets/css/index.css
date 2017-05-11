@@ -42,17 +42,15 @@ p {
   flex-wrap: wrap;
 }
 
-.tutor > p {
+.tutor > span {
   font-size: 2em;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
-  text-align: center;
 }
 
-.tutor {
-  width: 50%;
-  text-align: center;
+.tutor > img {
+  margin-left: 10px;
 }
 
 .upcomming-events {
