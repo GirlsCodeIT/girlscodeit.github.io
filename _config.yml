@@ -6,6 +6,9 @@ url: "https://girlscodeit.github.io/"
 markdown: kramdown
 email: girlscodeit@protonmail.com
 
+tutors: [{name: "Erinda Jaupaj", img: "erinda.jpg"},
+         {name: "Valentina Servile", img: "vale.jpg"}]
+
 emoji:
   src: "/assets/images/emoji"
 

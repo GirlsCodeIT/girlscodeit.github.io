@@ -40,40 +40,24 @@ layout: default
     <div class="inner">
       <h3>Tutors</h3>
 
-      <div>
+      {% for tutor in site.tutors %}
         <div class="col s6 m12">
           <div class="lighten-5 z-depth-1">
             <div class="tutor row valign-wrapper">
               <div style="margin-left: 0px" class="col s2">
-                <img style="margin-left: 0px" src="/assets/images/erinda.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                <img style="margin-left: 0px" src="/assets/images/{{ tutor.img }}" alt="" class="circle responsive-img">
               </div>
               <div style="margin-left: 0px; width: inherit;" class="tutor col s4">
                 <span>
-                  Erinda Jaupaj
+                  {{tutor.name}}
                 </span>
               </div>
             </div>
           </div>
         </div>
-
-        <div class="col s6 m12">
-          <div class="lighten-5 z-depth-1">
-            <div class="row valign-wrapper">
-              <div style="margin-left: 0px" class="tutor col s2">
-                <img style="margin-left: 0px" src="/assets/images/vale.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
-              </div>
-              <div style="margin-left: 0px; width: inherit;" class="tutor col s4">
-                <span>
-                  Valentina Servile
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      {% endfor %}
 
 
-      <hr class="separator"></hr>
       <p style="margin: 0px;">Vuoi darci una mano e aiutarci nei nostri prossimi eventi?
       <br/>
       Hai qualcosa da proporci come prossimo evento?
@@ -86,7 +70,7 @@ layout: default
 
   <div class="upcomming-events">
     <div style="padding-top: 100px;">
-      <a class="b_register z-depth-4" href="https://www.eventbrite.it/e/biglietti-serata-interattiva-34570362886" target="_blank">Registrati al nostro prossimo evento</a>
+      <a class="b_register z-depth-4" href="https://www.eventbrite.it/e/biglietti-evento-aperto-34926835104" target="_blank">Registrati al nostro prossimo evento</a>
     </div>
 
     <div class="inner" style="padding-top: 100px;  padding-bottom: 50px;">
