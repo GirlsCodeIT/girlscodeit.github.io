@@ -115,6 +115,10 @@ p {
     background-image: url("/assets/images/telegram-logo.png")
   }
 
+  .twitter {
+    background-image: url("/assets/images/twitter-logo.png")
+  }
+
 
   @media screen and (max-width: 800px) {
       .tutor {
